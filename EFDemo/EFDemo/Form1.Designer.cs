@@ -44,6 +44,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.txbAddress = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.btnActualizar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCustomers)).BeginInit();
             this.SuspendLayout();
             // 
@@ -95,9 +96,9 @@
             // 
             // btnInsertar
             // 
-            this.btnInsertar.Location = new System.Drawing.Point(363, 442);
+            this.btnInsertar.Location = new System.Drawing.Point(363, 397);
             this.btnInsertar.Name = "btnInsertar";
-            this.btnInsertar.Size = new System.Drawing.Size(75, 23);
+            this.btnInsertar.Size = new System.Drawing.Size(91, 38);
             this.btnInsertar.TabIndex = 7;
             this.btnInsertar.Text = "Insertar";
             this.btnInsertar.UseVisualStyleBackColor = true;
@@ -183,11 +184,22 @@
             this.label6.TabIndex = 17;
             this.label6.Text = "Address";
             // 
+            // btnActualizar
+            // 
+            this.btnActualizar.Location = new System.Drawing.Point(363, 349);
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.Size = new System.Drawing.Size(91, 39);
+            this.btnActualizar.TabIndex = 19;
+            this.btnActualizar.Text = "Actualizar";
+            this.btnActualizar.UseVisualStyleBackColor = true;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(803, 576);
+            this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.txbAddress);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txbContactTitle);
@@ -230,6 +242,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txbAddress;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button btnActualizar;
     }
 }
 
