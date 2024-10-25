@@ -29,7 +29,7 @@ namespace EFDemo
         {
             var cliente = cr.ObtenerPorID(txbObtenerPorID.Text);
             List<Customers> lista1 = new List<Customers> { cliente };
-            dgvCustomers.DataSource = lista1;
+            dgvCustomers.DataSource = lista1; 
         }
     }
 }
